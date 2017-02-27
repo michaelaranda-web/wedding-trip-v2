@@ -17,7 +17,11 @@ var config = {
         include : APP_DIR,
         exclude: /node_modules/,
         loader : 'babel-loader'
-      }
+      },
+      {
+        test: /\.scss$/,
+        loaders: ['style-loader', 'css-loader', 'sass-loader']
+	  	}
     ]
   }
 };
