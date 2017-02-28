@@ -7,7 +7,8 @@ export class Home extends React.Component {
       <div className="home-page">
         <div className="wedding-cake col-sm-4" />
         <div className="home-content col-sm-7">
-        	<h1>Martina + Michael 2017</h1>
+        	<h1>Martina and Michael's Wedding Trip 2017</h1>
+        	<h3></h3>
         </div>
       </div>
     );

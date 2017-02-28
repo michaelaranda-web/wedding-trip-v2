@@ -14,12 +14,15 @@
 		padding: 0;
 
 		h1 {
+		    text-align: center;
+    		padding: 15px;
 			position: relative;
 			width: 900px;
 			top: 25px;
 			right: 80px;
 			font-size: 70px;
 			background-color: white;
+			border: 8px solid lightblue;
 		}
 	}
 }
