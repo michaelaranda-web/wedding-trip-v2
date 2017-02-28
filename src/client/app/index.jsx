@@ -4,6 +4,7 @@ import { Router, Route, Link, IndexRoute, hashHistory, browserHistory } from 're
 import routes from './components/routes.jsx';
 import App from './components/app.jsx';
 
+require('bootstrap/dist/css/bootstrap.min.css');
 require('./stylesheets/index.scss');
 
 render(
