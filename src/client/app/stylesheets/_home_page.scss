@@ -1,20 +1,25 @@
-.wedding-cake {
-	padding: 0;
-	top: 80px;
-	height: 450px;
-	background: url('../icons/wedding-cake.png') no-repeat center;
-	background-size: contain;
-}
+.home-page {
+	height: 100%;
+	background: url('../icons/wedding-pattern.png');
 
-.home-content {
-	padding: 0;
+	.wedding-cake {
+		padding: 0;
+		top: 80px;
+		height: 450px;
+		background: url('../icons/wedding-cake.png') no-repeat center;
+		background-size: contain;
+	}
 
-	h1 {
-		position: relative;
-		width: 900px;
-		top: 25px;
-		right: 80px;
-		font-size: 70px;
-		background-color: white;
+	.home-content {
+		padding: 0;
+
+		h1 {
+			position: relative;
+			width: 900px;
+			top: 25px;
+			right: 80px;
+			font-size: 70px;
+			background-color: white;
+		}
 	}
 }

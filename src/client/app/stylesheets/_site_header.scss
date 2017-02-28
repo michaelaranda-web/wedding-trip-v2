@@ -1,0 +1,35 @@
+#site-header {
+	height: 35px;
+	background-color: gray;
+
+	.site-title {
+  	color: white;
+		font-weight: bold;
+ 		font-size: 15px;
+		font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    letter-spacing: 2px;
+    line-height: 1.42857143;
+    padding: 5px 0 0 15px;
+
+    a {
+    	color: white;
+    	text-decoration: none;
+    }
+	}
+
+	.header-links {
+		ul {
+			li {
+				list-style: none;
+		    display: inline-block;
+		    text-align: center;
+		    margin-top: 6px;
+
+		    a {
+		    	color: white;
+		    	text-decoration: none;
+		    }
+			}
+		}
+	}
+}
