@@ -3,13 +3,13 @@
 	background-color: gray;
 
 	.site-title {
-  	color: white;
-		font-weight: bold;
- 		font-size: 15px;
-		font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
-    letter-spacing: 2px;
-    line-height: 1.42857143;
-    padding: 5px 0 0 15px;
+  		color: white;
+			font-weight: bold;
+	 		font-size: 15px;
+			font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+	    letter-spacing: 2px;
+	    line-height: 1.42857143;
+	    padding: 5px 0 0 15px;
 
     a {
     	color: white;
@@ -18,17 +18,19 @@
 	}
 
 	.header-links {
+		float: right;
+
 		ul {
 			li {
 				list-style: none;
-		    display: inline-block;
-		    text-align: center;
-		    margin-top: 6px;
+			    display: inline-block;
+			    text-align: center;
+			    margin-top: 6px;
 
-		    a {
-		    	color: white;
-		    	text-decoration: none;
-		    }
+			    a {
+			    	color: white;
+			    	text-decoration: none;
+			    }
 			}
 		}
 	}

@@ -5,13 +5,13 @@ export class Header extends React.Component {
 	render() {
 	  return (
 	  	<div id="site-header">
-	  		<Link to={`/`}><div className="site-title col-sm-8">MARTINA AND MICHAEL WEDDING TRIP</div></Link>
-	  		<div className="header-links col-sm-4">
+	  		<div className="site-title col-xs-4"><Link to={`/`}>M+M 2017</Link></div>
+	  		<div className="header-links col-xs-4">
 	  			<ul>
-	  				<li className="col-sm-3">Hawaii</li>
-	  				<li className="col-sm-3"><Link to={`/japan/`}>Japan</Link></li>
-	  				<li className="col-sm-3">Tokyo</li>
-	  				<li className="col-sm-3">California</li>
+	  				<li className="col-xs-3">Hawaii</li>
+	  				<li className="col-xs-3"><Link to={`/japan/`}>Japan</Link></li>
+	  				<li className="col-xs-3">Tokyo</li>
+	  				<li className="col-xs-3">California</li>
 	  			</ul>
 	  		</div>
 	  	</div>
