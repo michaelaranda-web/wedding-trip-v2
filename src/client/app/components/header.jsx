@@ -5,7 +5,7 @@ export class Header extends React.Component {
 	render() {
 	  return (
 	  	<div id="site-header">
-	  		<div className="site-title col-sm-8"><Link to={`/`}>MARTINA AND MICHAEL'S WEDDING TRIP</Link></div>
+	  		<Link to={`/`}><div className="site-title col-sm-8">MARTINA AND MICHAEL WEDDING TRIP</div></Link>
 	  		<div className="header-links col-sm-4">
 	  			<ul>
 	  				<li className="col-sm-3">Hawaii</li>
