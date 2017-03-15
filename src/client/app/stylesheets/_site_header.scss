@@ -1,3 +1,10 @@
+@mixin button-turned-link {
+  background-color: transparent;
+  border: none;
+  color: white;
+  padding: 6px;
+}
+
 #site-header {
 	height: 35px;
 	background-color: gray;
@@ -15,12 +22,11 @@
 		float: right;
 
 		.header-dropdown-menu {
+      float: left;
+
 			.dropdown {
 				.btn-default {
-					background-color: transparent;
-					border: none;
-					color: white;
-					padding: 6px;
+					@include button-turned-link;
 				}
 
 				.btn {
@@ -28,5 +34,10 @@
 				}
 			}
 		}
+
+    .our-story-link {
+      @include button-turned-link;
+      float: left;
+    }
 	}
 }
