@@ -10,6 +10,9 @@ export class Home extends React.Component {
         	<h1>Martina and Michael's Wedding Trip 2017</h1>
         	<h3></h3>
         </div>
+        <div className="bottom-section col-sm-12">
+          <div className="welcome-message"></div>
+        </div>
       </div>
     );
   }

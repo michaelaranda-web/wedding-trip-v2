@@ -1,5 +1,6 @@
 .home-page {
-	height: 100%;
+	position: relative;
+	height: 80%;
 	background: url('../icons/gold_dots_background.png') no-repeat;
 	background-size: cover;
 
@@ -8,6 +9,7 @@
 		height: 600px;
 		background: url('../icons/bride_and_groom_no_outline.png') no-repeat center;
 		background-size: contain;
+		z-index: 2;
 	}
 
 	.home-content {
@@ -18,10 +20,20 @@
 			padding: 15px;
 			margin: 30px;
 			position: relative;
-			font-size: 70px;
+			font-size: 50px;
 			font-family: "Life Savers";
 			background-color: white;
 			border: 8px solid lightblue;
+		}
+	}
+
+	.bottom-section {
+		height: 60%;
+		background-color: #fff5aa;
+		margin-top: -200px;
+
+		.welcome-message {
+
 		}
 	}
 }
