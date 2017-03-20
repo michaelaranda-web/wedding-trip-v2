@@ -1,0 +1,33 @@
+.adventures-page {
+  height: 90%;
+
+  background-image: url('../icons/world_map.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  .header-section {
+    margin-top: 15px;
+
+    .title-left {
+      font-size: 105px;
+      margin-top: 13px;
+      text-align: right;
+    }
+
+    .title-right {
+      font-size: 95px;
+      margin-top: 25px;
+    }
+
+    .title-left, .title-right {
+      font-family: "Pacifico";
+    }
+
+    .floating-heads {
+      height: 275px;
+      background-image: url('../icons/floating_heads_light.png');
+      background-repeat: no-repeat;
+      background-size: contain;
+    }
+  }
+}
