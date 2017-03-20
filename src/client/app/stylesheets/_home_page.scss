@@ -14,6 +14,7 @@
 
 	.home-content {
 		padding: 0;
+		z-index: 1;
 
 		h1 {
 			text-align: center;
@@ -24,6 +25,12 @@
 			font-family: "Life Savers";
 			background-color: white;
 			border: 8px solid lightblue;
+		}
+
+		.wedding-cakes-table {
+			height: 300px;
+			margin: 0 25px;
+			background-color: white;
 		}
 	}
 
