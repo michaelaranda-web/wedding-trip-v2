@@ -31,4 +31,34 @@
       }
     }
   }
+
+  .adventure-icons-section {
+    margin-top: 50px;
+
+    .icon {
+      .icon-image {
+        height: 300px;
+
+        background-repeat: no-repeat;
+        background-size: contain;
+
+        &.japan {
+          background-image: url('../icons/adventure_icon_japan.png');
+        }
+
+        &.taiwan {
+          background-image: url('../icons/adventure_icon_taiwan.png');
+        }
+
+        &.hawaii {
+          background-image: url('../icons/adventure_icon_hawaii.png');
+        }
+      }
+
+      .icon-title {
+        font-size: 30px;
+        text-align: center;
+      }
+    }
+  }
 }
