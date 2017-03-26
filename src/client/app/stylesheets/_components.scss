@@ -1,3 +1,18 @@
+.coming-soon {
+	width: 700px;
+	height: 100px;
+	font-size: 64px;
+	font-family: "Lobster";
+	text-align: center;
+	background-color: white;
+	border: 3px solid darkred;
+	margin-top: 50px;
+
+	position: absolute;
+	left: 50%;
+	transform: translateX(-50%) rotate(-0.005turn);
+}
+
 .long-tile {
 	height: 350px;
 	margin-bottom: 90px;

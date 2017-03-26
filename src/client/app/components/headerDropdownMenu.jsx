@@ -22,8 +22,12 @@ class HeaderDropdownMenu extends React.Component {
 					<LinkContainer to={{ pathname: 'japan'}}>
 						<MenuItem eventKey="1">Japan</MenuItem>
 					</LinkContainer>
-					<MenuItem eventKey="2">Placeholder 1</MenuItem>
-					<MenuItem eventKey="3">Placeholder 2</MenuItem>
+					<LinkContainer to={{ pathname: 'taiwan'}}>
+						<MenuItem eventKey="2">Taiwan</MenuItem>
+					</LinkContainer>
+					<LinkContainer to={{ pathname: 'hawaii'}}>
+						<MenuItem eventKey="3">Hawaii</MenuItem>
+					</LinkContainer>
 				</SplitButton>
 			</div>
 	  );
