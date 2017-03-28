@@ -1,4 +1,6 @@
+/aws_versions/
 /src/client/public/
 /node_modules/
 /.idea/
 /zips/
+npm-debug.log
